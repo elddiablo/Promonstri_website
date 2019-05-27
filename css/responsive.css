@@ -768,9 +768,13 @@ body h2{
 		overflow: hidden;
 		padding: 30px 0 38px 20px;
 	}
-	.cp-home1-welcome .hide_custom{
-	display: none;
+	
 }
+
+@media (max-width: 1000px){ 
+	.cp-home1-welcome .hide_custom{
+		display: none;
+	}
 }
 
 /*===========================================================================*/
